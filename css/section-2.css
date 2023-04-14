@@ -1,0 +1,44 @@
+#section-2 {
+    background-color: #F1EADD;
+    display: flex;
+}
+
+.texts-area {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.content-2 {
+    display: grid;
+    width: 70%;
+}
+
+.title-2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.description-2 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.button-2 {
+    color: white;
+}
+
+.button-text {
+    font-size: 16px;
+    font-family: 'PT Mono', monospace;
+    font-weight: bold;
+}
+
+.image-area {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-right: 10%;
+}

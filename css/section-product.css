@@ -1,0 +1,65 @@
+#section-product {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: white;
+}
+
+.content-container {
+    width: 90%;
+    display: grid;
+}
+
+.text-container {
+    display: grid;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    margin-left: 10%;
+    gap: 10px;
+    width: 80%;
+}
+
+.text-before {
+    font-size: 30px;
+}
+
+.text-after {
+    font-size: 20px;
+    color: gray;
+}
+
+.card-products {
+    display: flex;
+    justify-content: center;
+    gap: 10%
+}
+
+.card {
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 600px;
+    display: grid;
+    border: 1px solid rgb(163, 158, 158);
+}
+
+.img-product {
+    width: 600px;
+    height: 550px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 1px solid rgb(163, 158, 158);
+}
+
+.description-product {
+    height: 150px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.legend-product {
+    font-size: 20px;
+}

@@ -1,0 +1,65 @@
+#section-testemonials {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: white;
+    padding-top: 5%;
+}
+
+.slide {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.slideshow {
+    background-color: #f7b602;
+    width: 80%;
+    height: 390px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-slide {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    height: 10%;
+}
+
+.title-slide {
+    font-size: 19px;
+}
+
+.autor-slide {
+    font-size: 15px;
+}
+
+.bottom-slide {
+    font-size: 34px;
+    font-family: 'Crimson Text', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.icons {
+    background-color: limegreen;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-icons {
+    background-color: magenta;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
